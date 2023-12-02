@@ -51,7 +51,7 @@
 .menu-items li {
     list-style: none;
     margin-left: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .navbar a {
@@ -88,7 +88,7 @@ nav .navbar .media-icons {
 
 @media (max-width: 768px) {
     .navbar {
-        opacity: 0.95;
+        opacity: 1;
     }
 
     .navbar-container input[type="checkbox"],
@@ -211,15 +211,16 @@ nav.sticky .navbar .logo a {
     }
 }
 
-.scroll-button a{
+.scroll-button a {
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: #fff;
     background: #4070f4;
-    padding: 7px 12px;;
+    padding: 7px 12px;
+    ;
     font-size: 18px;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15);
     display: none;
-  }
+}

@@ -14,7 +14,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     private scrollService: ScrollService,
     private router: Router,
     private zone: NgZone
-  ) {}
+  ) { }
   ngAfterViewInit(): void {
     throw new Error('Method not implemented.');
   }

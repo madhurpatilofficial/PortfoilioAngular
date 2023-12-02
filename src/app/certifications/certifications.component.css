@@ -1,24 +1,26 @@
-section .title{
+section .title {
   display: flex;
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 50px;
-  
+
 }
-a{
+
+a {
   text-decoration: none;
 }
 
 
-section .title span{
+section .title span {
   color: #200e31;
   font-size: 30px;
   font-weight: 600;
   position: relative;
   padding-bottom: 8px;
 }
+
 section .title span::before,
-section .title span::after{
+section .title span::after {
   content: '';
   position: absolute;
   height: 5px;
@@ -27,7 +29,8 @@ section .title span::after{
   left: 0;
   bottom: 0;
 }
-section .title span::after{
+
+section .title span::after {
   /* bottom: -7px; */
   width: 70%;
   left: 50%;
@@ -38,7 +41,7 @@ section .title span::after{
 
 
 
-.ach h4{
+.ach h4 {
   border-style: outset;
   border-radius: 50px;
   border-color: #00cbda;
@@ -48,7 +51,7 @@ section .title span::after{
 }
 
 
-.but{
+.but {
   background-color: #00cbda;
   border: none;
   padding: 15px 32px;
@@ -65,13 +68,14 @@ section .title span::after{
 
 
 
-.cert .boxes{
+.cert .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
-.cert .boxes .box{
+
+.cert .boxes .box {
   margin: 20px 0;
   width: calc(300% / 3 - 20px);
   text-align: center;
@@ -81,17 +85,19 @@ section .title span::after{
   cursor: default;
   transition: all 0.4s ease;
 }
-.cert .boxes .box:hover{
+
+.cert .boxes .box:hover {
   background: linear-gradient(90deg, hsla(192, 96%, 50%, 1) 0%, hsla(65, 92%, 54%, 1) 100%);
   color: rgb(0, 0, 0);
 }
 
 .cert .boxes .box:hover .topic,
-.cert .boxes .box:hover p{
+.cert .boxes .box:hover p {
   color: #0E2431;
   transition: all 0.4s ease;
 }
+
 .cert .boxes .box:hover .topic,
-.cert .boxes .box:hover p{
+.cert .boxes .box:hover p {
   color: rgb(10, 10, 10);
 }

@@ -38,36 +38,42 @@
     border-radius: 50px;
     transition: all 0.3s ease;
   }
-/* Footer CSS */
-footer{
-  background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
 
-  padding: 15px 0;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-footer .text span{
-  font-size: 17px;
-  font-weight: 400;
-  color: #fff;
-}
-footer .text span a{
-  font-weight: 500;
-  color: #FFF;
-}
-footer .text span a:hover{
-  text-decoration: underline;
-}
-/* Scroll TO Top Button CSS */
-.scroll-button a{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  color: #fff;
-  background: #4070f4;
-  padding: 7px 12px;;
-  font-size: 18px;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.15);
-  display: none;
-}
+  /* Footer CSS */
+  footer {
+    background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  footer .text span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  footer .text span a {
+    font-weight: 500;
+    color: #FFF;
+  }
+
+  footer .text span a:hover {
+    text-decoration: underline;
+  }
+
+  /* Scroll TO Top Button CSS */
+  .scroll-button a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: #4070f4;
+    padding: 7px 12px;
+    ;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+  }
