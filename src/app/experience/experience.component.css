@@ -55,7 +55,7 @@ section .title span::after {
 }
 
 .exp .boxes .box:hover {
-  background: linear-gradient(90deg, hsla(280, 95%, 57%, 1) 0%, hsla(193, 90%, 55%, 1) 100%);
+  background: linear-gradient(90deg, rgb(186, 91, 234) 0%, rgb(81, 201, 234) 100%);
   color: rgb(0, 0, 0);
 }
 

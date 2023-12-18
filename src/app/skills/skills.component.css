@@ -4,10 +4,9 @@ section .title {
   margin-top: 150px;
   margin-bottom: 50px;
 }
-section{
-  /* background: linear-gradient(90deg, hsla(284, 100%, 53%, 1) 0%, hsla(77, 100%, 64%, 1) 100%); */
-  background-color: 186, 183, 182;
-  /* background:  linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%); */
+
+section {
+  background-color: rgb(255, 249, 249);
 }
 
 
@@ -73,8 +72,6 @@ body {
   text-align: center;
   color: #000000;
   background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
-  /* background: linear-gradient(90deg, hsla(210, 71%, 55%, 1) 0%, hsla(334, 77%, 69%, 1) 100%); */
-  /* background: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%); */
 }
 
 progress {

@@ -224,3 +224,29 @@ nav.sticky .navbar .logo a {
     box-shadow: rgba(0, 0, 0, 0.15);
     display: none;
 }
+  
+  
+  /* Side Navigation Menu Button CSS */
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    position: absolute;
+    color: #fff;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+  }
+  
+  nav .menu-btn {
+    color: rgb(0, 68, 255);
+  }
+  
+  nav.sticky .menu-btn {
+    color: rgb(0, 68, 255);
+  }
+  
+  .navbar .menu .menu-btn {
+    color: rgb(0, 68, 255);
+  }

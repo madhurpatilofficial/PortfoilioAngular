@@ -52,7 +52,7 @@ section .title span::after {
 }
 
 .services .boxes .box:hover {
-  background: linear-gradient(90deg, hsla(352, 83%, 64%, 1) 0%, hsla(230, 90%, 68%, 1) 100%);
+  background: linear-gradient(90deg, rgb(236, 105, 123) 0%, hsla(230, 90%, 68%, 1) 100%);
 
   color: rgb(0, 0, 0);
 }
